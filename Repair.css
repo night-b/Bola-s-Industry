@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+    font-size: 40px;
+}
+p{
+    color: darkorchid;
+}
+span{
+    color: goldenrod;
+}
+.link a{
+    text-decoration: none;
+    color: darksalmon;
+}
+.home{
+    background-image: url(/images/view-steel-hammer-with-other-construction-elements-tools.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+.text{
+    padding-top: 100px;
+    font-size: 30px;
+    padding-left: 20px;
+}
+.text ul{
+    color: azure;
+    padding-left: 30px;
+}
+.text h1{
+    color:firebrick;
+}
+.text p{
+    font-size: 40px;
+}
+.home P{
+    color: black;
+    font-size: 40px;
+}
